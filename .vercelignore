@@ -1,0 +1,11 @@
+node_modules
+.git
+references
+reports
+playwright-report*
+test-results*
+tests
+CHALLENGE.md
+AUDIT.md
+ARCHITECTURE.md
+scripts/optimize-assets.py

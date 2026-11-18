@@ -1,0 +1,12 @@
+node_modules
+dist
+package-lock.json
+public/mockServiceWorker.js
+references
+playwright-report*
+test-results*
+.lighthouseci
+reports/
+
+# Enunciado original preservado literalmente
+CHALLENGE.md

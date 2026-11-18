@@ -1,0 +1,1924 @@
+{
+  "environment": {
+    "date": "2026-11-18T15:13:45.677Z",
+    "timezone": "America/Sao_Paulo",
+    "os": "Windows_NT 10.0.22631 x64",
+    "cpu": "AMD Ryzen 5 3600 6-Core Processor              ",
+    "logicalCpus": 12,
+    "memoryGiB": 32,
+    "node": "v20.19.6",
+    "playwright": "1.64.1",
+    "lighthouse": "12.6.1",
+    "lighthouseCI": "0.15.1",
+    "chromePath": "C:\\Users\\Guilherme\\AppData\\Local\\ms-playwright\\chromium-1248\\chrome-win64\\chrome.exe",
+    "sourceSha256": "d013d0e0c215f685d9945226630f0e399183ce0793ca5450b11fd7ed25954701",
+    "conditions": "Build Vite otimizado, MSW padrão, assets locais completos, Chromium headless, perfil novo, cache/storage limpos pelo Lighthouse a cada navegação, sem extensões. Rede e CPU simuladas pelo Lighthouse conforme perfil; medições sequenciais na máquina local."
+  },
+  "results": [
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "pathname": "/",
+      "runs": [
+        {
+          "report": "mobile-inicio-1.html",
+          "scores": {
+            "performance": 58,
+            "accessibility": 100,
+            "best-practices": 96,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3488.669,
+            "CLS": 0,
+            "TBT": 2314.1655
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [],
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.77,
+              "displayValue": "2.2 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.64,
+              "displayValue": "3.5 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.77,
+              "displayValue": "4.2 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.05,
+              "displayValue": "2,310 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0,
+              "displayValue": "3,590 ms"
+            },
+            {
+              "id": "errors-in-console",
+              "title": "Browser errors were logged to the console",
+              "score": 0
+            },
+            {
+              "id": "interactive",
+              "title": "Time to Interactive",
+              "score": 0.68,
+              "displayValue": "5.7 s"
+            },
+            {
+              "id": "mainthread-work-breakdown",
+              "title": "Minimize main-thread work",
+              "score": 0,
+              "displayValue": "5.3 s"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,490 ms"
+            },
+            {
+              "id": "lcp-lazy-loaded",
+              "title": "Largest Contentful Paint image was lazily loaded",
+              "score": 0
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 170 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,832 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "report": "mobile-inicio-2.html",
+          "scores": {
+            "performance": 85,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3404.3274000000006,
+            "CLS": 0,
+            "TBT": 278
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.66,
+              "displayValue": "3.4 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.81,
+              "displayValue": "280 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.39,
+              "displayValue": "290 ms"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,400 ms"
+            },
+            {
+              "id": "lcp-lazy-loaded",
+              "title": "Largest Contentful Paint image was lazily loaded",
+              "score": 0
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 170 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,832 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "report": "mobile-inicio-3.html",
+          "scores": {
+            "performance": 84,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3437.7329000000004,
+            "CLS": 0,
+            "TBT": 318
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.66,
+              "displayValue": "3.4 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.77,
+              "displayValue": "320 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.29,
+              "displayValue": "330 ms"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,440 ms"
+            },
+            {
+              "id": "lcp-lazy-loaded",
+              "title": "Largest Contentful Paint image was lazily loaded",
+              "score": 0
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 170 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,832 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "performance": 84,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 92
+      },
+      "metrics": {
+        "LCP": 3437.7329000000004,
+        "CLS": 0,
+        "TBT": 318
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "pathname": "/nfts/nft-001",
+      "runs": [
+        {
+          "report": "mobile-detalhe-1.html",
+          "scores": {
+            "performance": 79,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3763.64655,
+            "CLS": 0,
+            "TBT": 268
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.57,
+              "displayValue": "2.8 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.56,
+              "displayValue": "3.8 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.82,
+              "displayValue": "270 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.55,
+              "displayValue": "230 ms"
+            },
+            {
+              "id": "interactive",
+              "title": "Time to Interactive",
+              "score": 0.89,
+              "displayValue": "3.9 s"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,760 ms"
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0.5,
+              "displayValue": "Est savings of 20 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 5,014 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "report": "mobile-detalhe-2.html",
+          "scores": {
+            "performance": 81,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3451.8583000000003,
+            "CLS": 0,
+            "TBT": 291.5
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.57,
+              "displayValue": "2.8 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.65,
+              "displayValue": "3.5 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.8,
+              "displayValue": "290 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.53,
+              "displayValue": "240 ms"
+            },
+            {
+              "id": "interactive",
+              "title": "Time to Interactive",
+              "score": 0.89,
+              "displayValue": "3.9 s"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,450 ms"
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0.5,
+              "displayValue": "Est savings of 20 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 5,014 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "report": "mobile-detalhe-3.html",
+          "scores": {
+            "performance": 75,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 3692.1443999999997,
+            "CLS": 0,
+            "TBT": 360.32130000000006
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 390,
+              "height": 844,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.49,
+              "displayValue": "3.0 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.58,
+              "displayValue": "3.7 s"
+            },
+            {
+              "id": "total-blocking-time",
+              "title": "Total Blocking Time",
+              "score": 0.72,
+              "displayValue": "360 ms"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.11,
+              "displayValue": "460 ms"
+            },
+            {
+              "id": "interactive",
+              "title": "Time to Interactive",
+              "score": 0.88,
+              "displayValue": "3.9 s"
+            },
+            {
+              "id": "mainthread-work-breakdown",
+              "title": "Minimize main-thread work",
+              "score": 0,
+              "displayValue": "2.0 s"
+            },
+            {
+              "id": "bootup-time",
+              "title": "Reduce JavaScript execution time",
+              "score": 0,
+              "displayValue": "1.4 s"
+            },
+            {
+              "id": "largest-contentful-paint-element",
+              "title": "Largest Contentful Paint element",
+              "score": 0,
+              "displayValue": "3,690 ms"
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 30 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 5,014 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "performance": 79,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 92
+      },
+      "metrics": {
+        "LCP": 3692.1443999999997,
+        "CLS": 0,
+        "TBT": 291.5
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "pathname": "/",
+      "runs": [
+        {
+          "report": "desktop-inicio-1.html",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 96,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 1114.81345,
+            "CLS": 0.00008787661160699019,
+            "TBT": 58
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [],
+          "issues": [
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.84,
+              "displayValue": "150 ms"
+            },
+            {
+              "id": "errors-in-console",
+              "title": "Browser errors were logged to the console",
+              "score": 0
+            },
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 90 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,606 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "report": "desktop-inicio-2.html",
+          "scores": {
+            "performance": 98,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 973.364,
+            "CLS": 0.00008787661160699019,
+            "TBT": 0
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0.5,
+              "displayValue": "Est savings of 10 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,606 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "report": "desktop-inicio-3.html",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 894.28975,
+            "CLS": 0.00008787661160699019,
+            "TBT": 30
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 70 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 71 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,606 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 92
+      },
+      "metrics": {
+        "LCP": 973.364,
+        "CLS": 0.00008787661160699019,
+        "TBT": 30
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "pathname": "/nfts/nft-001",
+      "runs": [
+        {
+          "report": "desktop-detalhe-1.html",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 924.2106999999999,
+            "CLS": 0.0003553708833487227,
+            "TBT": 5.5
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 30 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,920 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "report": "desktop-detalhe-2.html",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 967.831,
+            "CLS": 0.0003553708833487227,
+            "TBT": 21
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 30 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,920 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        },
+        {
+          "report": "desktop-detalhe-3.html",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 92
+          },
+          "metrics": {
+            "LCP": 901.3795000000001,
+            "CLS": 0.0003553708833487227,
+            "TBT": 5.5
+          },
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+          "settings": {
+            "output": [
+              "html",
+              "json"
+            ],
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1440,
+              "height": 900,
+              "deviceScaleFactor": 1,
+              "disabled": false
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": false,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "en-US",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "performance",
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "warnings": [
+            "There may be stored data affecting loading performance in this location: IndexedDB. Audit this page in an incognito window to prevent those resources from affecting your scores."
+          ],
+          "issues": [
+            {
+              "id": "prioritize-lcp-image",
+              "title": "Preload Largest Contentful Paint image",
+              "score": 0,
+              "displayValue": "Est savings of 30 ms"
+            },
+            {
+              "id": "render-blocking-resources",
+              "title": "Eliminate render-blocking resources",
+              "score": 0.5,
+              "displayValue": "Est savings of 0 ms"
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "score": 0,
+              "displayValue": "Est savings of 70 KiB"
+            },
+            {
+              "id": "uses-responsive-images",
+              "title": "Properly size images",
+              "score": 0,
+              "displayValue": "Est savings of 4,920 KiB"
+            },
+            {
+              "id": "robots-txt",
+              "title": "robots.txt is not valid",
+              "score": 0,
+              "displayValue": "25 errors found"
+            },
+            {
+              "id": "bf-cache",
+              "title": "Page prevented back/forward cache restoration",
+              "score": 0,
+              "displayValue": "1 failure reason"
+            },
+            {
+              "id": "lcp-discovery-insight",
+              "title": "LCP request discovery",
+              "score": 0
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Network dependency tree",
+              "score": 0
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Render blocking requests",
+              "score": 0.5
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 92
+      },
+      "metrics": {
+        "LCP": 924.2106999999999,
+        "CLS": 0.0003553708833487227,
+        "TBT": 5.5
+      }
+    }
+  ]
+}

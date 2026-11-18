@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-18T15:13:45.677Z",
+  "timezone": "America/Sao_Paulo",
+  "os": "Windows_NT 10.0.22631 x64",
+  "cpu": "AMD Ryzen 5 3600 6-Core Processor              ",
+  "logicalCpus": 12,
+  "memoryGiB": 32,
+  "node": "v20.19.6",
+  "playwright": "1.64.1",
+  "lighthouse": "12.6.1",
+  "lighthouseCI": "0.15.1",
+  "chromePath": "C:\\Users\\Guilherme\\AppData\\Local\\ms-playwright\\chromium-1248\\chrome-win64\\chrome.exe",
+  "sourceSha256": "d013d0e0c215f685d9945226630f0e399183ce0793ca5450b11fd7ed25954701",
+  "conditions": "Build Vite otimizado, MSW padrão, assets locais completos, Chromium headless, perfil novo, cache/storage limpos pelo Lighthouse a cada navegação, sem extensões. Rede e CPU simuladas pelo Lighthouse conforme perfil; medições sequenciais na máquina local."
+}

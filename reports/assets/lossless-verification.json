@@ -1,0 +1,54 @@
+{
+  "pillow": "13.0.0",
+  "format": "WebP lossless",
+  "assets": [
+    {
+      "original": "references/original-assets/ape-glasses.png",
+      "output": "public/assets/images/ape-glasses.webp",
+      "width": 1254,
+      "height": 1254,
+      "originalBytes": 1885435,
+      "outputBytes": 1246260,
+      "identicalRgbaPixels": true,
+      "rgbaSha256": "53cf795673a7137ec5db9367e107e4a940c7dc4c8f05b115f42a961697318045",
+      "originalSha256": "f20b58b99de12b6eceede2090607e4b999275bba95de7674bb14f26b59666b21",
+      "outputSha256": "f202e82826fe6a8cee2d51d8d17372363d0134d2fbe539a9d5767c3fe53a3f54"
+    },
+    {
+      "original": "references/original-assets/ape-headset.png",
+      "output": "public/assets/images/ape-headset.webp",
+      "width": 1254,
+      "height": 1254,
+      "originalBytes": 1978600,
+      "outputBytes": 1330986,
+      "identicalRgbaPixels": true,
+      "rgbaSha256": "ef4b86cf3d94988c6d55a6572730b101faca75d869547b9044b89238c55e97e7",
+      "originalSha256": "2a42ba5adc341c3d0e1ad6905058e2762d995fc988113a7cd28b0d15f6a4ba28",
+      "outputSha256": "59da0342ed21de8155bb09ab2a41ddeac86c9ce8bd839b1a6f97cc6fdfedcac5"
+    },
+    {
+      "original": "references/original-assets/ape-hoodie.png",
+      "output": "public/assets/images/ape-hoodie.webp",
+      "width": 1254,
+      "height": 1254,
+      "originalBytes": 2068526,
+      "outputBytes": 1346586,
+      "identicalRgbaPixels": true,
+      "rgbaSha256": "089d069f83e54ef8847ebd578c694f33697ab0b4c0827206246278d2ca355d75",
+      "originalSha256": "9b25d8d72395aa62f919f6ad33b95b7ba7bbfee6049e95cf159a319b03ecb8d9",
+      "outputSha256": "49fe42f879977d5525c9ecf087bd842eb7051506ee06f46295706e0a5f81cc2b"
+    },
+    {
+      "original": "references/original-assets/ape_suit.png",
+      "output": "public/assets/images/ape_suit.webp",
+      "width": 1254,
+      "height": 1254,
+      "originalBytes": 2027336,
+      "outputBytes": 1358194,
+      "identicalRgbaPixels": true,
+      "rgbaSha256": "0297b19c16b7dae9fc286ff55889ac817181b17a24a5eb9136cfd6c6bf945e4a",
+      "originalSha256": "326df4c1c08c31c88b9f407e51be3991e46667183af62aa1501927adc76f52b5",
+      "outputSha256": "ae04b6d3b32028198a2063d51de3d43e0aac103559446905b75fb73bdef1931f"
+    }
+  ]
+}
